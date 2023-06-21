@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif, tahoma;
+    float: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 60vw;
+    max-height: 750px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .container{
+    height: 100%;
+}
+
+.menu{
+    width: 100%;
+    height: 18%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5vw;
+}
+
+.logo-1{
+    width: 16vw;
+    height: 2.2vw;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left: .5vw;
+}
+
+nav.menu-mobile{
+    display: none;
+}
+
+nav.menu-desktop ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.liMenu{
+    padding: 0 .5vw;
+}
+
+.liMenu a{
+    color: white;
+    font-size: 1.3vw;
+}
+
+.chamada-1{
+    width: 100%;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.textCmda-1{
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.textCmda-1 h2{
+    color: white;
+    font-weight: 300;
+    font-size: 3.5vw;
+    padding-bottom: 3%;
+}
+
+.textCmda-1 p{
+    max-width: 650px;
+    color: white;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    text-align: justify;
+    padding-right: 3vw;
+}
+
+.sessao1{
+    width: 100%;
+    height: 25vw;
+    background-color: #472562;
+}
+
+.sessao1 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto-sessao1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    justify-content: flex-start;
+    transform: translateX(3vw);
+}
+
+.texto-sessao1 h2{
+    font-size: 2.2vw;
+    padding-top: 3vw;
+    font-weight: 300;    
+}
+
+.texto-sessao1 p{
+    font-size: 1.1vw;
+    padding-top: 1.4vw;
+    font-weight: 300;    
+}
+
+.texto-sessao1 ul li{
+    font-size: 1.2vw;
+    padding-top: 1vw;
+    list-style-position: inside;
+    list-style: disc;
+    transform: translateX(1.8vw);
+}
+
+.botao-sessao1{
+    margin-top: 2vw;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 22.5vw;
+    background-color: #ff703d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(7vw);
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+.device-sessao{ 
+    width: 34.1vw;
+    height: 30vw;   
+    background-image: url(../images/device.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-3vw, -5vw);
+}

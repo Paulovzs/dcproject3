@@ -1,0 +1,161 @@
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Setar a fonte padrão para evitar inconsistências */
+body {
+    line-height: 1;
+    font-family: Arial, sans-serif;
+}
+
+/* Evitar problemas com fontes negritadas */
+b,
+strong {
+    font-weight: bold;
+}
+
+/* Resetar estilos de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Evitar problemas com elementos inline */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Evitar problemas com elementos embutidos */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* Resetar margens e paddings para elementos de tabela */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Resetar paddings para campos de formulário */
+input,
+textarea,
+select {
+    padding: 0;
+    margin: 0;
+}
+
+/* Resetar paddings para botões */
+button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Resetar estilos de formulário */
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+button {
+    appearance: button;
+    -webkit-appearance: button;
+}
+
+/* Resetar estilos para elementos incorporados */
+img,
+embed,
+object,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Resetar estilos para elementos responsivos */
+img,
+video {
+    display: block;
+}
+
+/* Resetar estilos para elementos de lista */
+ol,
+ul {
+    list-style: none;
+}
